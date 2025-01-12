@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about-me">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#it-experience">IT Experience</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>Personal Profile Webpage</h1>
+
+        <hr>
+        <section id="about-me" class="grid-item">
+            <h2>About Me</h2>
+            <img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t1.15752-9/470052700_1936943276801216_8807325627957125547_n.png" alt="Profile Picture" class="profile-img">
+            <p><strong>Name:</strong> Sondrick Frondozo</p>
+            <p><strong>Nickname:</strong> Drick / Sun</p>
+        </section>
+
+        <section id="education" class="grid-item">
+            <h2>Education & Achievements</h2>
+            <p><strong>Achievements:</strong> None</p>
+            <p><strong>Humanities and Social Sciences</strong></p>
+            <p><strong>Education:</strong> Asia Pacific College</p>
+            <ul>
+                <li>BSIT-MI</li>
+            </ul>
+            <p>Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</p>
+        </section>
+
+        <section id="it-experience" class="grid-item">
+            <h2>IT Experience</h2>
+            <ul>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="hobbies" class="grid-item">
+            <h2>Hobbies & Interests</h2>
+            <ul>
+                <li>Music</li>
+                <li>Reading manhwa/novels/manga</li>
+                <li>Playing Games</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:sondrickfrondozo31@gmail.com">sondrickfrondozo31@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sondrick-frondozo-244a821b4/">linkedin.com/in/sondrickfrondozo</a></p>
+            <p>GitHub: <a href="https://github.com/SnFrondozo">github.com/sondrickfrondozo</a></p>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Sondrick Frondozo. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
